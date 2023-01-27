@@ -21,7 +21,7 @@ public class Main {
                     operationIndex = i;
                     break;
                 } else {
-                    operationIndex -= 1;
+                    operationIndex -= 5;
                 }
             }
             String[] digits = mathEx.split(operation1[operationIndex]);
@@ -50,7 +50,7 @@ public class Main {
                         result = ArithmeticOperation.multiply(num1, num2);
                         break;
                     case "/":
-                        result = num1/num2;
+                        result = ArithmeticOperation.divine(num1, num2);
                         break;}
                 if (isRoman) {
                     System.out.println(converter.arabicToRoman(result));}
