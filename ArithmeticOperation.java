@@ -14,7 +14,7 @@ class ArithmeticOperation {
     static int multiply(int num1, int num2) {
         return num1 * num2;
     }
-    static int devine (int num1, int num2){
+    static int divine (int num1, int num2){
         return num1 / num2;
     }
 }
